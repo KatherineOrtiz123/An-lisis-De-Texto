@@ -1,0 +1,19 @@
+# Desarrollo De Analisis De Texto
+## Descripción
+El prototipo desarrollado en este taller tiene como objetivo crear un servicio integral capaz de evaluar los sentimientos en textos extensos, incluyendo comentarios en redes sociales como twitter. A través de la aplicación de modelos de procesamiento de lenguaje natural, una interfaz gráfica intuitiva y la integración con APIs de redes sociales, los usuarios  pueden acceder y hacer uso de ella para analizar el sentimiento de los textos. Con herramientas que abarcan desde la introducción a NLP hasta la implementación de filtros de comentarios, se espera  poder desarrollar y desplegar soluciones tecnológicas que aborden la evaluación de sentimientos en contextos reales.
+
+
+## Tecnologías usadas
+
+Python: Utilizado con frameworks como FastAPI o Django para la creación de la API del backend, permitiendo una implementación eficiente y escalable.
+
+HTML, CSS, JavaScript: Empleados en el desarrollo del frontend de la interfaz gráfica de usuario, asegurando una experiencia de usuario atractiva e interactiva.
+
+Transformers de Hugging Face: Utilizados para implementar modelos de procesamiento de lenguaje natural capaces de manejar textos extensos y realizar análisis de sentimientos precisos.
+
+APIs de redes sociales: Se integran para la conexión con plataformas como Twitter, permitiendo la recolección y análisis de comentarios directamente desde estas fuentes.
+
+## Autores
+
+- Juan Esteban Acosta Rodriguez
+- Katherine Michelle Ortiz Burgos

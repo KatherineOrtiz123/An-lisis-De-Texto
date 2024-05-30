@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('/static/imagenes/fondo.avif') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    background-color: #eac7f1f3;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;  /* Ajust width as necessary */
+    max-width: 800px;  /* Maximum width to ensure it doesn't get too large */
+    margin: 0 auto;  /* Center the container */
+}
+
+#page-title {
+    color: black;  /* Cambia esto al color deseado */
+}
+
+textarea {
+    width: 100%;  /* Adjusted to be 100% of the container */
+    height: 200px;  /* Increase height to give a rectangular shape */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;  /* Ensure padding and border are included in the width and height */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
